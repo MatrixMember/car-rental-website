@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="html" lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Wyporzyczalnia samochodów u Gienia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="body">
+
+    <section>
+        <header class="header">
+
+            <h1>Wypożyczalnia samochodów u Gienka</h1>
+
+        </header>
+    </section>
+    <section>
+        <nav>
+            <ul class="unorderList">
+                <li class="unorderList__listCategory"><a class="unorderList__links" href="#About">O firmie</a></li>
+                <li class="unorderList__listCategory"><a class="unorderList__links" href="#Oferta">Nasza oferta samochodów</a>
+                </li>
+                <li class="unorderList__listCategory"><a class="unorderList__links" href="#Katalog">Cennik</a></li>
+                <li class="unorderList__listCategory"><a class="unorderList__links" href="#Dane">Kontakt</a></li>
+            </ul>
+        </nav>
+        <button class="button">
+            Zmień motyw na <span class="button__themeName">jasny</span>
+        </button>
+    </section>
+    <main class="main">
+        <section>
+
+
+            <h2 id="About">O naszej firmie</h1>
+
+            <p class="main__text">
+                Naszym Klientom przekazujemy wyłącznie najlepsze i sprawdzone rozwiązania. Jako profesjonalna
+                wypożyczalnia samochodów oferujemy wynajem aut typu <strong>kombi i SUV</strong> <br /> Wszystkie
+                dostępne w naszej wypożyczalni aut pojazdy są na bieżąco kontrolowane, dlatego Klienci mogą
+                mieć pewność, że za każdym razem otrzymują samochód osobowy w jego możliwie najlepszym wydaniu.
+                <br />
+                Oferujemy wynajem znanych marek aut osobowych, które idealnie sprawdzą się podczas rodzinnej
+                wycieczki,
+                czy wyjazdu służbowego.
+                Nasza wypożyczalnia dba o najwyższe bezpieczeństwo swoich Klientów, dlatego każdy z dostępnych
+                pojazdów jest wyposażony w <strong>poduszki powietrzne i systemy ABS i ESP.</strong> <br />
+                Ponadto, wszystkie proponowane na wynajem pojazdy posiadają wiele atrakcyjnych dodatków, takich jak:
+                <strong>GPS, klimatyzacja, czy radio.</strong> Zachęcamy do zapoznania się z całą naszą ofertą.
+
+
+            </p>
+
+
+        </section>
+        <section>
+            <h2 id="Oferta">Nasza oferta samochodów</h2>
+            <img class="obraz" width="300" height="200" src="https://i.ibb.co/rmwH22b/mercedes.webp"
+                alt="mercedes" />
+
+            <img class="obraz" width="300" height="200" src="https://i.ibb.co/tDfJrCs/BMW.webp" alt="BMW" />
+
+            <img class="obraz" width="300" height="200" src="https://i.ibb.co/QYK78sq/volvo.jpg" alt="volvo" />
+
+
+        </section>
+        <h2 id="Katalog">Cennik</h2>
+        <div class="tableContainer">
+            <table class="table">
+                <caption class="table__tableCaption">Cennik na rok 2023.</caption>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="col">Samochód</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">1 dzień</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">1 tydzień</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">2 tygodnie</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">1 miesiąc</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">Najem długoterminowy
+                    </th>
+                </tr>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="row">Mercedes</th>
+                    <td class="table__tableCell">300zł</td>
+                    <td class="table__tableCell">2100zł</td>
+                    <td class="table__tableCell">4200zł</td>
+                    <td class="table__tableCell">8400zł</td>
+                    <td class="table__tableCell" rowspan="3">Do uzgodnienia</td>
+                </tr>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="row">BMW</th>
+                    <td class="table__tableCell">400zł</td>
+                    <td class="table__tableCell">2800zł</td>
+                    <td class="table__tableCell">5600zł</td>
+                    <td class="table__tableCell">11200zł</td>
+                </tr>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="row">Volvo</th>
+                    <td class="table__tableCell">500zł</td>
+                    <td class="table__tableCell">3500zł</td>
+                    <td class="table__tableCell">7000zł</td>
+                    <td class="table__tableCell">14000zł</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <h2 id="Dane">Kontakt</h2>
+            Tele. +48323452901 <br />
+            email: ugienia@gmail.com <br />
+        </footer>
+
+
+    </main>
+</body>
+
+
+</html>
