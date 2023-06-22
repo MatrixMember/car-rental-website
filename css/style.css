@@ -1,50 +1,47 @@
-
 html {
   box-sizing: border-box;
 }
 
-
 *, ::after, ::before {
-  box-sizing: inherit;  
+  box-sizing: inherit;
 }
 
-
-
 .body {
-box-sizing: border-box;
-background-color: rgb(109, 109, 109);
-text-align: center;
-max-width: 1000px;
-    text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(109, 109, 109);
+  text-align: center;
+  max-width: 1000px;
+  text-align: center;
   margin: 40px auto;
   padding: 15px;
 }
 
 
-.body__dark{
-  color:black;
-  background:rgba(255, 239, 90, 0.842) ;
+.body__dark {
+  color: black;
+  background: rgba(255, 239, 90, 0.842);
 }
 
-.header{
+.header {
   background-color: rgb(235, 152, 0);
   border: black solid;
   border-radius: 10px;
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
-  
+
 }
 
-.main__text{
+.main__text {
   font-family: 'Montserrat', sans-serif;
 }
-.unorderlist{
+
+.unorderlist {
   list-style: none;
   text-align: center;
   font-weight: bold;
   margin: auto;
-  padding-left:10px;
+  padding-left: 10px;
   display: block;
 }
 
@@ -54,18 +51,18 @@ max-width: 1000px;
   color: black;
 }
 
-.unorderList__links{
-color: black;
-text-decoration: none;
+.unorderList__links {
+  color: black;
+  text-decoration: none;
 }
 
-.unorderList__listCategory .links{
+.unorderList__listCategory .links {
   display: block;
   width: auto;
 }
 
-.unorderList__listCategory{
-  background-color:rgb(228, 148, 0) ;
+.unorderList__listCategory {
+  background-color: rgb(228, 148, 0);
   border: black solid;
   border-radius: 10px;
   display: block;
@@ -79,9 +76,10 @@ text-decoration: none;
   line-height: 1.5;
   margin-top: 10px;
 }
+
 .main {
-    max-width: 1000px;
-    text-align: center;
+  max-width: 1000px;
+  text-align: center;
   margin: 40px auto;
 }
 
@@ -90,7 +88,7 @@ text-decoration: none;
   margin: auto;
 }
 
-.table__tableCaption{
+.table__tableCaption {
   font-weight: bold;
   text-align: left;
 }
@@ -100,25 +98,24 @@ text-decoration: none;
   text-align: center;
   padding: 15px 45px 15px 45px;
 }
+
 .table__tableHeader {
-background-color: rgb(230, 149, 0);
+  background-color: rgb(230, 149, 0);
 }
 
-.tableContainer{
+.tableContainer {
   overflow-x: auto;
-  
+
 }
 
-
-
-.obraz{
-  border: rgb(3, 1, 1) solid ;
+.obraz {
+  border: rgb(3, 1, 1) solid;
   border-radius: 15px;
 }
 
-.link:hover{
-  color:blue;
-  border-bottom:1px solid ;
+.link:hover {
+  color: blue;
+  border-bottom: 1px solid;
   outline: none;
 }
 
@@ -135,18 +132,3 @@ background-color: rgb(230, 149, 0);
   display: block;
   border: black solid;
 }
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
- 
