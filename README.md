@@ -8,4 +8,5 @@
 - CSS
 - JavaScript
 - BEM convenion
-###Link to the project:https://matrixmember.github.io/car-rental-website/
+
+### Link to the project:https://matrixmember.github.io/car-rental-website/
