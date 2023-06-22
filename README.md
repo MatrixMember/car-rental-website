@@ -3,10 +3,12 @@
 ## Quick look into my site
 ![project-image](https://github.com/MatrixMember/car-rental-website/blob/main/images/project-image.png?raw=true)
 ![project-image](https://github.com/MatrixMember/car-rental-website/blob/main/images/project-image2.png?raw=true)
+### Link to the project:https://matrixmember.github.io/car-rental-website/
+
 ## Technologies:
 - HTML
 - CSS
 - JavaScript
 - BEM convenion
 
-### Link to the project:https://matrixmember.github.io/car-rental-website/
+
